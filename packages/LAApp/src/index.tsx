@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from '../../LAHeader/src/index';
+import Header from 'la-header';
 
 const App = () => {
   return (
     <div>
-      <Header text="App's Header"/>
+      <Header text="my Header"/>
     </div>
   );
 };

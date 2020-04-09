@@ -1,15 +1,17 @@
 {
-  "name": "app",
+  "name": "la-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "lcz",
   "license": "ISC",
   "dependencies": {
+    "la-header": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
