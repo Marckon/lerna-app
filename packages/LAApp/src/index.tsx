@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from '../../Header/src/index';
+import Header from '../../LAHeader/src/index';
 
 const App = () => {
   return (
