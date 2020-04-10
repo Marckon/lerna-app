@@ -24,6 +24,11 @@ const option = {
     libraryTarget: 'umd',
   },
 
+  externals: {
+    react: 'React',
+    'react-dom': 'ReactDOM',
+  },
+
   resolve: {
     extensions: ['.ts', '.js', '.tsx', '.jsx'],
   },

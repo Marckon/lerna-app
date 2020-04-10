@@ -36,6 +36,11 @@ const option = {
     extensions: ['.ts', '.js', '.tsx', '.jsx'],
   },
 
+  externals: {
+    react: 'React',
+    'react-dom': 'ReactDOM',
+  },
+
   plugins: [
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, './index.html'),
