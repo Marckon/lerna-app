@@ -1,6 +1,6 @@
 {
   "name": "la-header",
-  "version": "1.1.0",
+  "version": "0.0.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "rm -rf lib && webpack --config webpack.prod.js"
   },
-  "types": "./@types",
-  "author": "lcz",
+  "types": "@types",
+  "author": "marckon",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.0",
